@@ -1,0 +1,54 @@
+<!doctype html> 
+<html> 
+<head> 
+	<meta charset="utf-8" />  
+	<title>Catalogo fotografico</title> 
+	<style>
+		#contenitore{
+			width:900px;
+			height: 1000px; 
+			margin-right: auto;
+			margin-left: auto;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+		<form name="american">
+			<select id="selAttori" name="elenco">
+				<option value="0">Evan Peters</option>
+				<option value="1">Sarah Paulson</option>
+				<option value="2">Jessica Lange</option>
+				<option value="3">Emma Roberts</option>
+				<option value="4">Taissa Farmiga</option>
+				<option value="5">Lily Rabe</option>
+				<option value="6">Finn Wittrock</option>
+				<option value="7">Kathy Bates</option>
+				<option value="8">Cody Fern</option>
+				<option value="9">Angela Basset</option>
+				<script>
+					
+					//let attori=["Evan Peters", "Sarah Paulson", "Jessica Lange", "Emma Roberts", "Taissa Farmiga", "Lily Rabe", "Finn Wittrock", "Kathy Bates", "Cody Fern", "Angela Basset"];
+					
+					let immagini=["img/Evan Peters.jpg", "img/Sara Paulson.jpg", "img/Jessica Lange.jpg", "img/Emma Roberts.jpg", "img/Taissa Farmiga.jpg", "img/Lily Rabe.jpg", "img/Finn Wittrock.jpg", "img/Kathy Bates.jpg", "img/Cody Fern.jpg", "img/Angela Basset.jpg"];
+					
+					let posizione= 0;
+					
+					//for(let i=0; i< immagini.length; i++){
+					//document.write("<option>" + i + "</option>");
+				//	}
+				</script>
+			</select>
+		</form>
+			<script>
+				const selezione = document.getElementById("selAttori");
+				selezione.addEventListener("change", function() {
+					let indice = document.american.elenco.value;
+				}
+					
+			</script>
+<div id="contenitore"></div>
+		
+	
+</body>
+</html> <!-- fine codice html -->
